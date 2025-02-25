@@ -1,0 +1,37 @@
+[
+    {
+        "query": "egg",
+        "search_type": "keyword",
+        "timestamp": "2025-02-25 13:21:33"
+    },
+    {
+        "query": "Comedy 1984",
+        "search_type": "genre_year",
+        "timestamp": "2025-02-25 13:22:06"
+    },
+    {
+        "query": "1984",
+        "search_type": "year",
+        "timestamp": "2025-02-25 13:23:23"
+    },
+    {
+        "query": "2000",
+        "search_type": "year",
+        "timestamp": "2025-02-25 13:24:39"
+    },
+    {
+        "query": "Games 1984",
+        "search_type": "genre_year",
+        "timestamp": "2025-02-25 13:24:49"
+    },
+    {
+        "query": "Drama 1984",
+        "search_type": "genre_year",
+        "timestamp": "2025-02-25 13:25:07"
+    },
+    {
+        "query": "egg",
+        "search_type": "keyword",
+        "timestamp": "2025-02-25 14:03:04"
+    }
+]
