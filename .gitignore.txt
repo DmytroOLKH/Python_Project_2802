@@ -1,1 +1,2 @@
-"C:\Users\denim\OneDrive\Документы\GitHub\Python_Project\dmyscy\config.py"
+dmyscy\config.py
+dmyscy/config.py
