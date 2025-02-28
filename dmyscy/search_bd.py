@@ -1,7 +1,7 @@
 from database import get_connection, read_dbconfig
 from typing import List, Dict
 
-def search_movies_by_keyword(keyword: str) -> List[Dict[str, str]]:
+def search_movies_by_keyword(keyword: str):
     """
     Поиск фильмов по ключевому слову в названии или описании.
     """
@@ -19,7 +19,7 @@ def search_movies_by_keyword(keyword: str) -> List[Dict[str, str]]:
         print(f"Error when searching for movies:: {e}")
     return []
 
-def search_movies_by_genre(genre_id: int) -> List[Dict[str, str]]:
+def search_movies_by_genre(genre_id: int):
     """
     Поиск фильмов по ID жанра.
     """
@@ -39,7 +39,7 @@ def search_movies_by_genre(genre_id: int) -> List[Dict[str, str]]:
         print(f"Error when searching for movies: {e}")
     return []
 
-def search_movies_by_year(release_year: int) -> List[Dict[str, str]]:
+def search_movies_by_year(release_year: int):
     """
     Поиск фильмов по году выпуска.
     """
@@ -57,7 +57,7 @@ def search_movies_by_year(release_year: int) -> List[Dict[str, str]]:
         print(f"Error when searching for movies: {e}")
     return []
 
-def search_movies_by_genre_and_year(genre_id: int, release_year: int) -> List[Dict[str, str]]:
+def search_movies_by_genre_and_year(genre_id: int, release_year: int):
     """
     Поиск фильмов по жанру и году выпуска.
     """
